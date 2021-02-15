@@ -20,13 +20,13 @@ int main(){
 int a,m,count;
 ll b;
 cin>>count;
-int* ans=new int(count);
+ll ans;
 for (int i=0;i<count;i++){
     cin>>a>>b>>m;
-    ans[i]=modex(a,b,m);
+    ans=modex(a,b,m);
+    cout<<ans<<endl;
 }
 
-for (int i=0;i<count;i++){
-    cout<<ans[i]<<endl;
-}
+
+return 0;
 }
