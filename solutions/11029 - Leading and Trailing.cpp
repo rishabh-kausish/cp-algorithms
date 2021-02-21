@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <strings.h>
 #define ll long
 using namespace std;
 
